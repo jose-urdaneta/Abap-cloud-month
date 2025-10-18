@@ -60,6 +60,7 @@ METHOD if_oo_adt_classrun~main.
     COMMIT WORK.
     out->write( |[RAP100] Demo data generated for table ztrap100__ju{ group_id }. | ).
     out->write( 'Modifica para Git' ).
+    out->write( 'Modifica para Git 2' ).
   ENDMETHOD.
 
 ENDCLASS.
